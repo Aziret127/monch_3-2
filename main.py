@@ -49,6 +49,7 @@ def main(page: ft.Page):
             page.update()
     
 
+
     task_input = ft.TextField(label='Введите задачу', on_submit=add_task, expand=True)
     task_input_button = ft.IconButton(icon=ft.Icons.SEND, on_click=add_task)
     
